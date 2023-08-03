@@ -58,6 +58,10 @@
       "fromIndex" : 3,
       "toIndex" : 8,
       "type" : "Attributes Updated"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 9,
+      "type" : "Success"
     } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
@@ -238,6 +242,27 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.edge.TbMsgPushToCloudNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1179,
+        "layoutY" : 263
+      },
+      "configuration" : {
+        "detailsList" : [ "TITLE" ],
+        "addToMetadata" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "26303aa0-31e9-11ee-ab78-536eaffa7025"
+      },
+      "name" : "details",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetTenantDetailsNode"
     } ],
     "ruleChainConnections" : null
   },
